@@ -64,6 +64,11 @@ class Solution:
 
                 # cur.nex is assign first, left to right
                 cur.next, pre, cur = pre, cur, cur.next  # different from pre, cur, cur.next = cur, cur,next, pre
+                # why it is different? 
+                #Does it eaqual to the following three lines? 
+                #cur.next = pre
+                #pre = cur
+                #cur = cur.next
                 cnt += 1
                 continue
 
