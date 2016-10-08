@@ -4,7 +4,7 @@ appears at least twice in the array, and it should return false if every element
 """
 __author__ = 'Daniel'
 from collections import Counter
-
+# where to find Counter???
 
 class Solution:
     def containsDuplicate(self, nums):
